@@ -11,9 +11,12 @@
 <body>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
 <!--Navigation bar -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <ul class="navbar-nav">
+  <ul class="navbar-nav ml-auto">
     <li class="nav-item active">
       <a class="nav-link" href="#">Active</a>
     </li>
