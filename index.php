@@ -43,8 +43,6 @@
     <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 bg-warning">
       <p>Sed ut perspiciatis...</p>
       <p>Sed ut perspiciatis...</p>
-      <p>Sed ut perspiciatis...</p>
-      <p>Sed ut perspiciatis...</p>
     </div>
   </div>
 </div>
