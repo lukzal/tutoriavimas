@@ -10,21 +10,21 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<nav class="navbar navbar-expand-sm bg-light">
-
-  <!-- Links -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link 1</a>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Active</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 2</a>
+      <a class="nav-link" href="#">Link</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link 3</a>
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
     </li>
   </ul>
-
 </nav>
 
 
