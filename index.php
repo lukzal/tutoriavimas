@@ -34,10 +34,10 @@
 
 <div class="container-fluid">
 <div class="row">
-    <div class="col-sm-6 bg-success">
+    <div class="col-xs-6 bg-success">
       <p>Lorem ipsum...</p>
     </div>
-    <div class="col-sm-6 bg-warning">
+    <div class="col-xs-6 bg-warning">
       <p>Sed ut perspiciatis...</p>
     </div>
   </div>
