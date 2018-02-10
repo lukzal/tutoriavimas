@@ -4,12 +4,14 @@
 <title>Page Title</title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+<!--Navigation bar -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
     <li class="nav-item active">
@@ -27,6 +29,19 @@
   </ul>
 </nav>
 
+
+<!-- Grids -->
+
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-6 bg-success">
+      <p>Lorem ipsum...</p>
+    </div>
+    <div class="col-sm-6 bg-warning">
+      <p>Sed ut perspiciatis...</p>
+    </div>
+  </div>
+</div>
 
 
 
