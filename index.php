@@ -37,7 +37,7 @@
     <div class="col-sm-3 col-md-6 col-lg-4 col-xl-2 bg-success">
       <p>Lorem ipsum...</p>
     </div>
-    <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 bg-error">
+    <div class="col-sm-9 col-md-6 col-lg-8 col-xl-10 bg-warning">
       <p>Sed ut perspiciatis...</p>
     </div>
   </div>
