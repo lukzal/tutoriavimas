@@ -1,0 +1,140 @@
+body
+{
+	overflow:scroll;
+}
+
+footer
+{
+	background-color: #263D42;
+    min-height: 70px;
+    text-align: center;
+}
+
+footer img
+{
+	max-width:25px;
+	height:auto;
+	margin:10px;
+}
+
+footer a
+{
+	text-decoration: none;
+}
+
+#topside
+{
+	min-height: 70px;
+
+}
+
+#topside h3
+{
+	float:right;
+	font-family:"Lucida Console";
+}
+
+#topside img
+{
+	max-width: 200px;
+
+}
+
+
+#carousel
+{
+	postion:relative;
+	background-color: #AC3B61;
+}
+
+
+#carousel img
+{
+	opacity: 0.5;
+	width: 300px;
+	min-height: 300px;
+	max-height:600px;
+	max-width: : 100%;
+	height: auto;
+
+}
+
+
+
+#navigation 
+{
+	font-size: 11px;
+	font-family:"Lucida Console";
+	position:sticky;
+}
+
+#navigation  ul{
+	border-width: 1px;
+	border-style:solid;
+	border-color: black;
+    padding: 20px;
+	background-color: #123C69;
+	list-style-type:  none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+#navigation  li {
+    float: right;
+}
+
+#navigation  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+
+#features {
+position:relative;
+text-align: center;
+align-self: center;
+background-color: #EEE2DC;
+min-height: 500px;
+min-width: 1250px;
+max-width: 1500px;
+
+}
+
+
+
+.feature {
+	display:inline-block;
+    font-family:"Lucida Console";
+	margin-left:100px;
+	margin-right:100px;
+	float:none;
+	min-height: 150px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+
+
+.feature p{
+	max-width:150px;	
+	position: relative;
+
+}
+
+.feature img
+{
+	position:relative;
+}
+
+
+body
+{
+	
+}
