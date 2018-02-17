@@ -1,0 +1,70 @@
+body{
+
+	width: 100%;
+}
+
+#profilebox {
+	float:right;
+	margin:30px;
+	background-color: grey;
+	min-height: 600px;
+}
+
+#profilephoto
+{
+	float:right;
+	min-width: 200px;
+	min-height: 200px;
+
+}
+
+#profilephoto img
+{
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+
+#search 
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+#maincontainer
+{
+	width: 80%;
+	float:right;
+}
+
+#sidebar
+{
+
+	width: 10%;
+	float:left;
+	background-color: grey;
+	min-height: 600px;
+	min-width: 100px;
+}
+
+#sidebar ul
+{
+	list-style: none;
+}
+
+#sidebar ul li a {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+{
+   margin: 30px;
+}
+
+#sidebar a
+{
+	margin: 30px;
+
+}
