@@ -10,7 +10,7 @@
 	<div id="profilebox">
 		 <form action = "" method = "post">
 
-        <input type="submit" name="Addfriend" value="Addfriend" />
+        <input type="submit" name="Addfriend" value="Addfriend	" />
          </form>
 		<!-- reikalinga išimti profilio duomenis bei foto iš database-->
 

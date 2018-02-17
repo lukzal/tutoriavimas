@@ -46,7 +46,7 @@
 
 <div id="sidebar">
 	<ul>
-		<li><a href="https://www.google.lt/">linkas</a>  </li>
+		<li><a href="profile.php">My profile</a>  </li>
 		<li><a href="https://www.google.lt/">linkas</a>  </li>
 		<li><a href="https://www.google.lt/">linkas</a>  </li>
 		<li><a href="https://www.google.lt/">linkas</a>  </li>
