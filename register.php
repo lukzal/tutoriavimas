@@ -63,7 +63,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $password = $confirm_password ="";       
 	   }
     }
-    }
+    } 
     // Check input errors before inserting in database
     if(empty($username_error) && empty($password_error) && empty($confirm_password_error)){
         
@@ -113,7 +113,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Please fill this form to create an account.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_error)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
+                <label>username</label>
                 <input type="text" name="username"class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_error; ?></span>
             </div>    
@@ -126,8 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <label>Confirm Password</label>
                 <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
                 <span class="help-block"><?php echo $confirm_password_error; ?></span>
-            </div>
-            <div class="form-group">
+            </div>    
                 <input type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-default" value="Reset">
             </div>

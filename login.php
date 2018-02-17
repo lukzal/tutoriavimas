@@ -9,7 +9,7 @@ $username_error = $password_error = "";
 // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  
-    // Check if username is empty
+   // Check if username is empty
     if(empty(trim($_POST["username"]))){
         $username_error = 'Please enter username.';
     } else{
@@ -86,13 +86,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 350px; padding: 20px; }
     </style>
 </head>
-<body>
+<body> 
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_error)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
+                <label>username</label>
                 <input type="text" name="username"class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_error; ?></span>
             </div>    
@@ -101,9 +101,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="password" name="password" class="form-control">
                 <span class="help-block"><?php echo $password_error; ?></span>
             </div>
-            <div class="form-group">
+         
                 <input type="submit" class="btn btn-primary" value="Login">
-            </div>
+            
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
         </form>
     </div>    
