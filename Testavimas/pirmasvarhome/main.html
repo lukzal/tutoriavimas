@@ -4,6 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title> S-TUT Home </title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="../../css/jquery-3.3.1.min.js"></script>
+  	<script src="login_signup.js"></script>
 </head>
 <body>
 
@@ -25,6 +27,102 @@
 </ul>
 
 </nav>
+
+<!-- Login / Sign Up -->
+
+<button class="open-login">Prisijungti</button>
+<button class="open-signup">Registruotis</button>
+
+<div style="display: none;" class="login">
+  <button class="close-login">X</button>
+  <h2>Prisijungti</h2>
+
+  <!-- Prisijungimo forma -->
+
+  <form method="post">
+
+    <div>
+      <label for="email">El. paštas:</label>
+      <input type="email" name="email" id="email" placeholder="Įvesk savo el. paštą" required>
+    </div>
+
+    <div>
+      <label for="pass">Slaptažodis:</label>
+      <input type="Password" id="pass" name="password" placeholder="Įvesk slaptažodį" pattern=".{5,15}" title="nuo 5 iki 15 simbolių" required>
+    </div>
+
+    <button>Prisijunk</button>
+
+  </form>
+  <!--  -->
+</div>
+
+<div style="display: none;" class="signup">
+  <button class="close-signup">X</button>
+  <h2>Registruotis</h2>
+
+  <!-- Registracijos forma -->
+
+  <form method="get">
+
+    <div>
+      <label for="firstName">Vardas:</label>
+      <input type="text" name="name" placeholder="Vardas" id="firstName" required>
+
+      <label for="lastName">Pavardė:</label>
+      <input type="text" name="surname" placeholder="Pavardė" id="lastName" required>
+    </div>
+
+    <div>
+      <label for="email">El. paštas:</label>
+      <input type="email" name="email" id="email" placeholder="Įvesk savo el. paštą" required>
+    </div>
+
+    <div>
+      <label for="pass1">Slaptažodis:</label>
+      <input type="Password" id="pass1" name="password1" placeholder="Įvesk slaptažodį" pattern=".{5,15}" title="nuo 5 iki 15 simbolių" required>
+    </div>
+    <div>
+      <label for="pass2">Slaptažodis:</label>
+      <input type="Password" id="pass2" name="password2" placeholder="Pakartok slaptažodį" pattern=".{5,15}" title="nuo 5 iki 15 simbolių" required>
+    </div>
+
+    <div>
+      <label>Gimtadienis:</label>
+      <select name="birthday-year" id="year">
+        <option selected disabled>Metai</option>
+      </select>
+      <select name="birtday-month" id="month">
+        <option selected disabled>Mėnesis</option>
+        <option value="1">Sausis</option>
+        <option value="2">Vasaris</option>
+        <option value="3">Kovas</option>
+        <option value="4">Balandis</option>
+        <option value="5">Gegužė</option>
+        <option value="6">Birželis</option>
+        <option value="7">Liepa</option>
+        <option value="8">Rugpjūtis</option>
+        <option value="9">Rugsėjis</option>
+        <option value="10">Spalis</option>
+        <option value="11">Lapkritis</option>
+        <option value="12">Gruodis</option>
+      </select>
+      <select name="birtday-day" id="day">
+        <option selected disabled>Diena</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="agreement">Sutinku su <a href="#">naudojimosi sąlygomis</a>.</label>
+      <input type="checkbox" name="agreed" id="agreement" required>
+    </div>
+
+    <button>Junkis</button>
+
+  </form>
+  <!--  -->
+  
+</div>  
 
 <!-- Karuselė -->
 
