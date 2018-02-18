@@ -100,25 +100,24 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 
 		 Vardas
                <p> <input type="text" name="name" ></p>
-			                   <span class="help-block"><?php echo $name_error; ?></span>
+			   <span class="help-block"><?php echo $name_error; ?></span>
 </div>
             <div class="form-group <?php echo (!empty($lastname_error)) ? 'has-error' : ''; ?>">
 			   		 Pavarde
                <p> <input type="text" name="lastname" ></p>
-			   			                   <span class="help-block"><?php echo $lastname_error; ?></span>
+			   	<span class="help-block"><?php echo $lastname_error; ?></span>
 </div>
             <div class="form-group <?php echo (!empty($course_error)) ? 'has-error' : ''; ?>">
 			   		 Kursas
 			   <p> <input type="text" name="course" ></p>
-			   			                   <span class="help-block"><?php echo $course_error; ?></span>
-			                  
-		            
+			  <span class="help-block"><?php echo $course_error; ?></span>
+         
     </div>
 	            <div class="form-group <?php echo (!empty($student_error)) ? 'has-error' : ''; ?>">
 
 	  <input type="radio" name="student" value="student"> Studentas<br>
   <input type="radio" name="student" value="tutor"> Tutorius<br>
-           			   			                   <span class="help-block"><?php echo $student_error; ?></span>
+   <span class="help-block"><?php echo $student_error; ?></span>
 </div>
                 <input type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-default" value="Reset">

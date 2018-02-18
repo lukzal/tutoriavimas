@@ -1,0 +1,7 @@
+Jeigu pakeiti username i email(replace all) nebeveikia niekas
+
+Reikes pakeisti user name i email
+
+loginas redirectina i duomenu pildyma kiekviena karta, nors turetu tai daryti tik viena
+
+jeigu info pildymas nepraeina validavimo, viskas resetinama

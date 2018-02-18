@@ -5,8 +5,8 @@ require_once 'config.php';
 // Define variables and initialize with empty values
 $username = $password = "";
 $username_error = $password_error = "";
- 
-// Processing form data when form is submitted
+
+ // Processing form data when form is submitted
 if($_SERVER["REQUEST_METHOD"] == "POST"){
  
    // Check if username is empty
